@@ -7,11 +7,16 @@ $(document).ready(function(){
 
     $("ul#category-display").append("<li class = 'lock'>" + tasks.category + "</li>");
 
-    var newForm = "<form id='task-form'>"//<input id='task-input' placeholder='task'></input><button type='submit'>Add Task</button></form>";
+    // var newForm = "<form id='task-form'><input id='task-input' placeholder='task'></input><button type='submit'>Add Task</button></form>";
 
-    $("li.lock").last().click(function(){
-      $("div#category-forms").append(newForm);
-    });
+    // $("li.lock").last().one("click", function(){
+    //   $("div#task-forms").append(newForm);
+    // });
 
+  });
+  $("form#task-form").submit(function(event){
+    
+    alert();
+    event.preventDefault();
   });
 });
