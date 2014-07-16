@@ -1,0 +1,36 @@
+div.container {
+  max-width: 600px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+
+div#inner-container {
+  background: url("http://subtlepatterns.com/patterns/gplaypattern.png");
+  position: relative;
+  min-height:500px;
+  max-width: 80%;
+  margin: 50px auto;
+  box-shadow: 4px 4px 5px -3px;
+}
+
+
+
+#title-box {
+  position: relative;
+  top: 400px;
+  left: -5px;
+  -webkit-transform: rotate(-90deg);
+float:left;
+}
+
+h1{
+  font-family: Helvetica;
+}
+
+input {
+  background: url("http://subtlepatterns.com/patterns/tex2res4.png");
+  color:white;
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+}
